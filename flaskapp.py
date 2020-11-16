@@ -55,4 +55,5 @@ def api_id():
             results.append(book)
     
     return jsonify(results)
-app.run()
+if __name__ == '__main__':
+   app.run()
